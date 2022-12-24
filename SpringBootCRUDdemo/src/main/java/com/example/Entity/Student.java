@@ -1,7 +1,12 @@
 package com.example.Entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Student {
 	
+	@Id
 	private int studentId;
 	private String fName;
 	private String lname;
